@@ -8,12 +8,12 @@
       "destination": "/users/[id]/"
     },
     {
-      "source": "/users/:id/blogs/",
-      "destination": "/users/[id]/blogs/"
+      "source": "/users/:id/:page/",
+      "destination": "/users/[id]/:page/"
     },
     {
-      "source": "/users/:id/blogs/:blogId/",
-      "destination": "/users/[id]/blogs/[blogId]/"
+      "source": "/users/:id/:page/:blogId/",
+      "destination": "/users/[id]/:page/[blogId]/"
     }
   ]
 }
