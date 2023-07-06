@@ -19,6 +19,7 @@ const User: NextPage = () => {
       <NextLink href={`/users/${id}/blogs/1/`}>user blog1 page</NextLink>
       <NextLink href={`/users/${id}/blogs/2/`}>user blog2 page</NextLink>
       <NextLink href={`/users/${id}/blogs/3/`}>user blog3 page</NextLink>
+      <NextLink href={`/users/${id}/blogs/4/`}>user blog4 page</NextLink>
     </div>
   );
 };
