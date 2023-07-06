@@ -1,5 +1,11 @@
 {
   "redirects": [
     { "source": "/redirect", "destination": "https://www.google.com" }
+  ],
+  "rewrites": [
+    {
+      "source": "/users/:id/",
+      "destination": "/users/[id]/"
+    }
   ]
 }

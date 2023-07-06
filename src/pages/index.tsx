@@ -8,6 +8,7 @@ const Home: NextPage = () => (
     <NextLink href="/users/1">user1 page</NextLink>
     <NextLink href="/users/2">user2 page</NextLink>
     <NextLink href="/users/3">user3 page</NextLink>
+    <NextLink href="/redirect">redirect page</NextLink>
   </div>
 );
 
