@@ -4,7 +4,11 @@
   ],
   "rewrites": [
     {
-      "source": "/users/:id/blogs/:blogId/",
+      "source": "/users/:id(.*)",
+      "destination": "/users/[id]/"
+    },
+    {
+      "source": "/users/:id/blogs/:blogId(.*)",
       "destination": "/users/[id]/blogs/[blogId]/"
     }
   ]
